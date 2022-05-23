@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:responsive_framework/responsive_framework.dart';
 
 final List<String> sponsorsLogo = [

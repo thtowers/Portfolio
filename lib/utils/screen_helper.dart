@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 
 class ScreenHelper extends StatelessWidget {
@@ -5,7 +7,6 @@ class ScreenHelper extends StatelessWidget {
   final Widget tablet;
   final Widget desktop;
 
-  // ignore: use_key_in_widget_constructors
   const ScreenHelper({this.desktop, this.mobile, this.tablet});
 
   static bool isMobile(BuildContext context) =>

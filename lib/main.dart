@@ -3,14 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portifolioth/pages/home/home.dart';
 import 'package:portifolioth/utils/constants.dart';
-import 'package:device_preview/device_preview.dart';
 
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:responsive_framework/responsive_framework.dart';
 
 void main() {
-  DevicePreview(enabled: true, builder: (context) => const MyApp());
-
   runApp(const MyApp());
 }
 

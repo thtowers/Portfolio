@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portifolioth/models/skill.dart';
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/globals.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:responsive_framework/responsive_wrapper.dart';
 
 List<Skill> skills = [
@@ -51,7 +49,6 @@ class SkillSection extends StatelessWidget {
       key: keyPortfolio,
       child: Center(
         child: LayoutBuilder(
-          
           builder: (BuildContext context, BoxConstraints constraints) {
             return ResponsiveWrapper(
               maxWidth: width,

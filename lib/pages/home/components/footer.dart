@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portifolioth/models/footer_item.dart';
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:responsive_framework/responsive_framework.dart';
 
 final List<FooterItem> footerItems = [

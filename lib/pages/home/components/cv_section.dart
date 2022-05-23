@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
-
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portifolioth/models/design_process.dart';
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:responsive_framework/responsive_grid.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:portifolioth/utils/globals.dart';
 
@@ -39,8 +35,6 @@ class CvSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
-
     return Container(
       key: keySection,
       color: Colors.transparent,
