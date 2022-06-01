@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portifolioth/models/design_process.dart';
+
+// ignore: unused_import
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_grid.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:portifolioth/utils/globals.dart';
+
+import '../../../models/design_process.dart';
 
 final List<DesignProcess> designProcesses = [
   DesignProcess(

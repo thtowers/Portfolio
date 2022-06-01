@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portifolioth/pages/home/home.dart';
-import 'package:portifolioth/utils/constants.dart';
-
-// ignore: import_of_legacy_library_into_null_safe
+import 'package:portifolioth/pages/home.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+
+import 'utils/constants.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +30,7 @@ class MyApp extends StatelessWidget {
         defaultScale: true,
         breakpoints: [
           const ResponsiveBreakpoint.resize(450, name: MOBILE),
-          const ResponsiveBreakpoint.resize(800, name: TABLET),
+          const ResponsiveBreakpoint.resize(600, name: TABLET),
           const ResponsiveBreakpoint.resize(1000, name: TABLET),
           const ResponsiveBreakpoint.resize(1200, name: DESKTOP),
           const ResponsiveBreakpoint.resize(2460, name: "4K"),

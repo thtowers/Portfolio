@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:portifolioth/pages/home/components/carousel_items.dart';
+// ignore: unused_import
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
@@ -118,6 +119,11 @@ Widget _buildMobile(BuildContext context, Widget text, Widget image) {
       maxWidth: getMobileMaxWidth(context),
     ),
     width: double.infinity,
-    child: text,
+    child: Row(
+      children: [
+        Expanded(child: text),
+        Expanded(child: image),
+      ],
+    ),
   );
 }

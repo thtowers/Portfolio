@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portifolioth/models/carousel_item_model.dart';
-import 'package:portifolioth/utils/constants.dart';
+
 import 'package:portifolioth/utils/globals.dart';
+
+import '../../../models/carousel_item_model.dart';
+import '../../../utils/constants.dart';
 
 List<CarouselItemModel> carouselItems = List.generate(
   5,

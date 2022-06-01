@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portifolioth/models/footer_item.dart';
+// ignore: unused_import
 import 'package:portifolioth/utils/constants.dart';
 import 'package:portifolioth/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
@@ -22,11 +23,13 @@ final List<FooterItem> footerItems = [
     iconPath: "assets/github.png",
     title: "GITHUB",
     text1: "thtowers",
+    text2: '',
   ),
   FooterItem(
     iconPath: "assets/whatsapp.png",
     title: "WHATSAPP",
     text1: "(21) 96552-4224 ",
+    text2: '',
   )
 ];
 
